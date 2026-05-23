@@ -374,7 +374,7 @@
 
     /* ── STATS ROW (sections) ────────────────────────────── */
     .sec-stats {
-      display: grid; grid-template-columns: repeat(4,1fr);
+      display: grid; grid-template-columns: repeat(3,1fr);
       gap: 1px; background: var(--border);
       border: 0.5px solid var(--border-solid); border-radius: var(--radius);
       overflow: hidden; margin: 28px 0;
@@ -496,7 +496,7 @@
 <!-- NAV -->
 <nav class="nav">
   <a href="index.html" class="nav-back">← Back to Portfolio</a>
-  <span class="nav-logo">Victoria G. Foïde</span>
+  <span class="nav-logo">Victoria Esther</span>
   <span class="nav-badge">UX/UI · Mobile App</span>
 </nav>
 
@@ -514,9 +514,7 @@
   </h1>
 
   <p class="hero-desc rv">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation.
+    I've been an F1 fan for years — and I was tired of the apps not keeping up with the sport. APEX is the app I always wanted: fast, beautiful, and built for the moments that actually matter on race day.
   </p>
 
   <div class="hero-stats rv">
@@ -572,7 +570,8 @@
     <section class="sec rv" id="overview">
       <div class="sec-label">Project Overview</div>
       <h2 class="sec-h2">Bringing Formula 1 closer to its fans</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>APEX started as a personal passion project — I'm a big F1 fan and I kept getting frustrated during races trying to find live standings, driver data, and lap times across multiple apps. So I decided to design the one I actually wanted to use.</p>
+      <p>This was my <strong>first solo UX/UI project</strong> from scratch. No brief, no client — just me, my Figma file, and a lot of race weekend energy. I handled everything: research, user flows, visual design, and the full prototype.</p>
 
       <div class="cards-3">
         <div class="info-card">
@@ -600,25 +599,25 @@
     <section class="sec rv" id="challenge">
       <div class="sec-label">The Challenge</div>
       <h2 class="sec-h2">What problem was worth solving?</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <p>During race weekends I'd have four different tabs open — live timing, driver standings, lap data, news. It was chaos. The existing apps are either <strong>too cluttered</strong> or too basic, and none of them feel built for someone who actually lives and breathes the sport.</p>
 
       <div class="pain-grid">
         <div class="pain-card">
           <div class="pc-icon">😤</div>
-          <div class="pc-title">Lorem ipsum dolor</div>
-          <div class="pc-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</div>
+          <div class="pc-title">Too much, too cluttered</div>
+          <div class="pc-body">Existing F1 apps try to do everything at once — ads, news, shop, fantasy, live data. During a race you don't have time to search through all of that.</div>
           <span class="pc-tag">Pain point #1</span>
         </div>
         <div class="pain-card">
           <div class="pc-icon">🔍</div>
-          <div class="pc-title">Consectetur adipiscing</div>
-          <div class="pc-body">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat duis aute.</div>
+          <div class="pc-title">Data buried too deep</div>
+          <div class="pc-body">Lap times, tyre strategies, driver gaps — the data fans actually care about is buried 3 taps deep. It should be front and centre, not hidden behind a paywall.</div>
           <span class="pc-tag">Pain point #2</span>
         </div>
         <div class="pain-card">
-          <div class="pc-icon">📊</div>
-          <div class="pc-title">Sed do eiusmod tempor</div>
-          <div class="pc-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint.</div>
+          <div class="pc-icon">🌑</div>
+          <div class="pc-title">No dark mode done right</div>
+          <div class="pc-body">F1 fans watch races at night, in dark rooms. A proper dark-first design isn't a nice-to-have — it's essential for the experience to feel truly immersive.</div>
           <span class="pc-tag">Pain point #3</span>
         </div>
       </div>
@@ -629,24 +628,24 @@
     <section class="sec rv" id="solution">
       <div class="sec-label">The Solution</div>
       <h2 class="sec-h2">Speed, clarity, and immersion</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Designing a native iOS experience for Formula 1 fans — fast, focused, and built around the moments that matter most.</p>
+      <p>APEX is built around one idea: <strong>get the right information to the fan as fast as possible</strong>, without noise. Every screen decision came from asking "would I actually use this during a race?" If the answer was no, it got cut.</p>
 
       <ul class="goals">
         <li>
           <div class="g-icon">🏎️</div>
-          <div class="g-text"><strong>Real-time race experience</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+          <div class="g-text"><strong>Real-time race experience</strong> — Live standings, gaps, lap times and tyre data all visible on one screen. No scrolling required when the lights go out.</div>
         </li>
         <li>
           <div class="g-icon">📊</div>
-          <div class="g-text"><strong>Clear data hierarchy</strong>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</div>
+          <div class="g-text"><strong>Clear data hierarchy</strong> — The most important info (position, gap to leader, pit status) is always the biggest on screen. Supporting data sits below without competing for attention.</div>
         </li>
         <li>
           <div class="g-icon">🗺️</div>
-          <div class="g-text"><strong>Intuitive navigation system</strong>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</div>
+          <div class="g-text"><strong>Intuitive navigation</strong> — Five tabs, each with one clear purpose: Race, Drivers, Teams, Schedule, and News. You always know where you are.</div>
         </li>
         <li>
           <div class="g-icon">🌙</div>
-          <div class="g-text"><strong>Immersive dark-mode design</strong>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</div>
+          <div class="g-text"><strong>Dark-first design</strong> — Designed entirely in dark mode with team colour accents. Easy on the eyes whether you're watching at midnight or in a packed fan zone.</div>
         </li>
       </ul>
     </section>
@@ -655,45 +654,44 @@
     <section class="sec rv" id="process">
       <div class="sec-label">Design Process</div>
       <h2 class="sec-h2">From research to prototype</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      <p>I followed a full design process — even as a solo project. Skipping steps felt like a shortcut I'd regret, so I made sure to do the research properly before touching Figma.</p>
 
       <div class="sec-stats">
         <div class="sec-stat-cell"><div class="sec-stat-val">23</div><div class="sec-stat-lbl">Screens</div></div>
         <div class="sec-stat-cell"><div class="sec-stat-val">5</div><div class="sec-stat-lbl">User Flows</div></div>
         <div class="sec-stat-cell"><div class="sec-stat-val">6wk</div><div class="sec-stat-lbl">Delivery</div></div>
-        <div class="sec-stat-cell"><div class="sec-stat-val">12</div><div class="sec-stat-lbl">Interviews</div></div>
       </div>
 
       <div class="process-steps">
         <div class="process-step">
           <div class="ps-num">1</div>
           <div><div class="ps-title">Research &amp; Discovery</div>
-          <div class="ps-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div></div>
+          <div class="ps-desc">I audited the F1 app, ESPN F1, and third-party tools. I also talked to fellow fans — what screens did they have open during a race? What annoyed them? The answers were consistent and very clear.</div></div>
         </div>
         <div class="process-step">
           <div class="ps-num">2</div>
           <div><div class="ps-title">Define &amp; Synthesise</div>
-          <div class="ps-desc">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div></div>
+          <div class="ps-desc">Mapped out the key user journeys: checking live standings, exploring a driver's season stats, and following a race from start to finish. These became the backbone of the 5 user flows.</div></div>
         </div>
         <div class="process-step">
           <div class="ps-num">3</div>
           <div><div class="ps-title">Ideation &amp; Wireframes</div>
-          <div class="ps-desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div></div>
+          <div class="ps-desc">Started with rough sketches on paper, then moved to low-fidelity wireframes in Figma. Focus was on information hierarchy — getting the right data visible at a glance before worrying about how it looked.</div></div>
         </div>
         <div class="process-step">
           <div class="ps-num">4</div>
           <div><div class="ps-title">High-Fidelity Prototype</div>
-          <div class="ps-desc">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div></div>
+          <div class="ps-desc">Built all 23 screens in Figma with a full dark-mode design system — components, colour tokens, type styles. Everything connected into a working prototype you can actually tap through.</div></div>
         </div>
         <div class="process-step">
           <div class="ps-num">5</div>
           <div><div class="ps-title">Usability Testing</div>
-          <div class="ps-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</div></div>
+          <div class="ps-desc">Shared the prototype with F1 fans from my circle and watched them navigate it. A few flows needed rethinking — especially the live race view, where I had too much data competing for attention.</div></div>
         </div>
         <div class="process-step">
           <div class="ps-num">6</div>
-          <div><div class="ps-title">Developer Handoff</div>
-          <div class="ps-desc">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</div></div>
+          <div><div class="ps-title">Iteration &amp; Polish</div>
+          <div class="ps-desc">After feedback, I simplified the live race screen, improved tap target sizes, and added micro-interactions. The final version is cleaner and faster to navigate than what I started with.</div></div>
         </div>
       </div>
 
@@ -703,30 +701,82 @@
     <section class="sec rv" id="visual">
       <div class="sec-label">Visual Elements</div>
       <h2 class="sec-h2">Colour, type, and motion</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>The visual language is built around the sport: <strong>racing red</strong> as the primary action colour, a near-black background for immersion, and <strong>team-inspired accents</strong> — championship gold and electric blue — to differentiate data sections at a glance.</p>
 
       <div class="img-blk short" style="margin:16px 0 8px;">
-        <div class="img-blk-inner" style="flex-direction:column; align-items:flex-start; gap:14px; padding:22px 28px;">
-          <div class="swatches">
-            <div class="swatch" style="background:#E8000D;"></div>
-            <div class="swatch" style="background:#0E0E0E; border:1px solid #333;"></div>
-            <div class="swatch" style="background:#1A1A1A;"></div>
-            <div class="swatch" style="background:#2C2C2C;"></div>
-            <div class="swatch" style="background:#FFFFFF;"></div>
-            <div class="swatch" style="background:#888888;"></div>
-            <div class="swatch" style="background:#FF4D4D;"></div>
+        <div class="img-blk-inner" style="flex-direction:column; align-items:flex-start; gap:18px; padding:24px 28px;">
+          <div style="font-size:11px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:#555;">Colour System</div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-end;">
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:52px;height:52px;border-radius:10px;background:#E8000D;"></div>
+              <span style="font-size:10px;color:#888;">F1 Red</span>
+              <span style="font-size:9px;color:#555;">#E8000D</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:44px;height:44px;border-radius:10px;background:#FF4D4D;"></div>
+              <span style="font-size:10px;color:#888;">Red Light</span>
+              <span style="font-size:9px;color:#555;">#FF4D4D</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;margin-left:6px;">
+              <div style="width:52px;height:52px;border-radius:10px;background:#FFD700;"></div>
+              <span style="font-size:10px;color:#888;">Gold</span>
+              <span style="font-size:9px;color:#555;">#FFD700</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:44px;height:44px;border-radius:10px;background:#F5A623;"></div>
+              <span style="font-size:10px;color:#888;">Amber</span>
+              <span style="font-size:9px;color:#555;">#F5A623</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;margin-left:6px;">
+              <div style="width:52px;height:52px;border-radius:10px;background:#0067FF;"></div>
+              <span style="font-size:10px;color:#888;">Electric Blue</span>
+              <span style="font-size:9px;color:#555;">#0067FF</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:44px;height:44px;border-radius:10px;background:#00C6FF;"></div>
+              <span style="font-size:10px;color:#888;">Sky Blue</span>
+              <span style="font-size:9px;color:#555;">#00C6FF</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;margin-left:6px;">
+              <div style="width:52px;height:52px;border-radius:10px;background:#0E0E0E;border:1px solid #333;"></div>
+              <span style="font-size:10px;color:#888;">Background</span>
+              <span style="font-size:9px;color:#555;">#0E0E0E</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:44px;height:44px;border-radius:10px;background:#1A1A1A;border:1px solid #333;"></div>
+              <span style="font-size:10px;color:#888;">Surface</span>
+              <span style="font-size:9px;color:#555;">#1A1A1A</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:44px;height:44px;border-radius:10px;background:#2C2C2C;border:1px solid #333;"></div>
+              <span style="font-size:10px;color:#888;">Elevated</span>
+              <span style="font-size:9px;color:#555;">#2C2C2C</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:44px;height:44px;border-radius:10px;background:#FFFFFF;border:1px solid #333;"></div>
+              <span style="font-size:10px;color:#888;">White</span>
+              <span style="font-size:9px;color:#555;">#FFFFFF</span>
+            </div>
+            <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
+              <div style="width:44px;height:44px;border-radius:10px;background:#888888;"></div>
+              <span style="font-size:10px;color:#888;">Muted</span>
+              <span style="font-size:9px;color:#555;">#888888</span>
+            </div>
           </div>
-          <div class="type-row">
-            <span class="type-sample" style="font-size:28px; font-weight:700; letter-spacing:-1px;">Aa</span>
-            <span class="type-label">Inter Bold — Display</span>
-            <span class="type-sample" style="font-size:18px;">Aa</span>
-            <span class="type-label">Inter Regular — Body</span>
-            <span class="type-sample" style="font-size:12px; font-weight:600; color:var(--red); text-transform:uppercase; letter-spacing:.08em;">Aa</span>
-            <span class="type-label">Inter SemiBold — Label</span>
+          <div style="width:100%;padding-top:12px;border-top:0.5px solid #2a2a2a;">
+            <div style="font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#555;margin-bottom:8px;">Type Scale — Inter</div>
+            <div class="type-row">
+              <span class="type-sample" style="font-size:28px;font-weight:700;letter-spacing:-1px;">Aa</span>
+              <span class="type-label">Inter Bold — Display</span>
+              <span class="type-sample" style="font-size:18px;">Aa</span>
+              <span class="type-label">Inter Regular — Body</span>
+              <span class="type-sample" style="font-size:12px;font-weight:600;color:var(--red);text-transform:uppercase;letter-spacing:.08em;">Aa</span>
+              <span class="type-label">Inter SemiBold — Label</span>
+            </div>
           </div>
         </div>
       </div>
-      <p class="img-cap">Colour system &amp; type scale — Inter typeface, racing red accent</p>
+      <p class="img-cap">Full colour system — F1 Red · Championship Gold · Electric Blue · Dark surfaces</p>
 
       <div style="margin:16px 0 8px; border-radius: var(--radius-lg); overflow:hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.10);">
         <img src="images/apex/nav1.png" alt="APEX Navigation, Data & Races screens" style="width:100%; display:block;">
@@ -738,7 +788,7 @@
     <section class="sec rv" id="final">
       <div class="sec-label">Final Designs</div>
       <h2 class="sec-h2">23 screens, 5 user flows</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p>The final prototype covers every key moment in a fan's race weekend — from checking the starting grid on Friday to reliving lap-by-lap data on Sunday night. All 23 screens are connected and tappable in the Figma prototype.</p>
 
       <div style="margin:28px 0 8px; border-radius: var(--radius-lg); overflow:hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.10);">
         <img src="images/apex/23screens.jpg" alt="All 23 APEX screens" style="width:100%; display:block;">
@@ -770,38 +820,38 @@
         <div class="tk-card">
           <div class="tk-icon">🏎️</div>
           <div class="tk-title">Speed matters in UX too</div>
-          <div class="tk-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</div>
+          <div class="tk-body">Being a fan is a design superpower. I already knew what was broken about the existing apps — that passion drove more opinionated, more honest design decisions than any brief could.</div>
         </div>
         <div class="tk-card">
           <div class="tk-icon">📐</div>
-          <div class="tk-title">Design systems save time</div>
-          <div class="tk-body">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</div>
+          <div class="tk-title">Design systems save you</div>
+          <div class="tk-body">Building a proper component library early meant that when I redesigned screens after testing, I only had to update one component — not 23 screens one by one.</div>
         </div>
         <div class="tk-card">
           <div class="tk-icon">🔁</div>
-          <div class="tk-title">Test early, test often</div>
-          <div class="tk-body">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat.</div>
+          <div class="tk-title">Test before you polish</div>
+          <div class="tk-body">I got attached to my live race screen and spent too long perfecting it — only to simplify it after feedback. Ship the rough version to real users first, always.</div>
         </div>
         <div class="tk-card">
-          <div class="tk-icon">🤝</div>
-          <div class="tk-title">Co-design with engineers</div>
-          <div class="tk-body">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</div>
+          <div class="tk-icon">🌑</div>
+          <div class="tk-title">Dark mode needs its own system</div>
+          <div class="tk-body">You can't just invert a light design. Dark-first UI needs its own thinking around contrast, depth, and how colours behave on dark backgrounds.</div>
         </div>
         <div class="tk-card">
           <div class="tk-icon">🎯</div>
-          <div class="tk-title">Define success upfront</div>
-          <div class="tk-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</div>
+          <div class="tk-title">Hierarchy is everything</div>
+          <div class="tk-body">F1 data is complex — laps, gaps, tyres, safety cars. The hardest part wasn't adding information, it was deciding what NOT to show on each screen.</div>
         </div>
         <div class="tk-card">
           <div class="tk-icon">✨</div>
-          <div class="tk-title">Details make the difference</div>
-          <div class="tk-body">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia.</div>
+          <div class="tk-title">Details make you feel it</div>
+          <div class="tk-body">The team colour highlights, the tyre compound icons, the micro-interactions — none of these are strictly necessary. But they're what make the app feel alive and worth using.</div>
         </div>
       </div>
 
       <div class="sec-label" style="margin-top:36px;">Next Steps</div>
-      <p style="margin-top:8px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-      <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Stay tuned! 🏎️</p>
+      <p style="margin-top:8px;">APEX started as a personal exercise but it's become one of my favourite things I've made. I'd love to push it further — adding a fantasy league module, a race replay timeline, and driver head-to-head comparison screens.</p>
+      <p>For now, the prototype is live and fully tappable. Give it a go before the next race weekend. 🏎️</p>
     </section>
 
     <!-- CTA -->
@@ -850,7 +900,7 @@
 
 <!-- FOOTER -->
 <div class="footer-bar">
-  <span>© 2025 Victoria G. Foïde</span>
+  <span>© 2025 Victoria Esther</span>
   <span>Made with ☕ and way too many Figma frames</span>
   <a href="index.html">Back to portfolio</a>
 </div>
